@@ -4,29 +4,29 @@ This project implements a **multiple instance circular singly linked list queue*
 ________________________________________
 
 ## Features ##
-1. **Create an instance
+1. **Create an instance**
  -  Initializes a circular singly linked list with a specified size (must be greater than 3).
  
-2. **Insert data  
+2. **Insert data**  
  -  Adds data to the queue and overwrites the oldest data if the queue is full.
  
-3. **Read data  
+3. **Read data**  
 -  Retrieves and removes the oldest data from the queue.
 
-4. **Clear the queue  
+4. **Clear the queue**  
 -  Empties the queue by clearing all stored data.
 
-5. **Data count  
+5. **Data count**  
 -  Returns the number of elements currently stored in the queue.
 
-6. **Check if full  
+6. **Check if full**  
 -  Determines whether the queue has reached its capacity.
 
-7. **Resize the queue  
+7. **Resize the queue**  
 -  Changes the size of the queue dynamically, maintaining its circular nature.
 -  Ensures the new size is greater than 3. Removes the oldest data if the size is reduced below the current count.
 
-8. **Destroy the queue  
+8. **Destroy the queue**  
 -  Releases all allocated memory associated with the queue.
 ________________________________________
 
@@ -84,5 +84,5 @@ To fulfill the assignment criteria:
 -  Memory safety is ensured, and error handling is implemented for edge cases (e.g., invalid sizes, memory allocation failures).
 ________________________________________
 
-** Author
+**Author**  
 Pontus Brusewitz
