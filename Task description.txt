@@ -1,0 +1,20 @@
+In this assignment you are supposed to develop and test a multiple instance circular queue using a circular singly linked list to store and restore data of type int according to the requirements bellow:  
+1. The module shall have a create function to create an instance
+  - Size of a queue is passed to the create function and it shall be greater than 3
+  - The nodes shall be created and linked in the create function
+2. The module shall have a function to write data to a queue
+  - If the queue is full then the oldest data shall be overwritten
+3. The module shall have a function to read data from a queue
+4. The module shall have a function to make a queue empty
+5. The module shall have a function to return number of data elements stored in a queue
+6. The module shall have a function to check if a queue is full or not
+7. The module shall have a function to resize a queue
+  - The new size shall also be greater than 3
+  - In the case you need to delete nodes which hold data elements, nodes with the oldest data elements shall be deleted.
+8. The module shall have a destroy function to release the allocated memory for an instance
+9. The module shall be tested using assertion
+10. There shall be a Makefile or a CMakeLists.txt file to build and run the test.
+  - The generated files shall be stored in a directory named build
+11. The submission shall be a zip file.  
+
+To get G all the above requirements shall be fulfilled and to get VG the module shall be a well-designed and a well-described module.
